@@ -16,7 +16,186 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   3. basic element presenation
 */
 
-html{
+html {
   font-size: 1.25em; /* 20/16 = 1.25 */
   line-height: 1.1em; /* 22/20 = 1.1 */
 }
+
+body {
+  padding-top: 3.3em;
+  padding-right: 1.65em;
+  padding-left: 1.65em;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding-bottom: 1.1em; /* 22/20 = 1.1 */
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h4{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+ol,ul {
+  padding-bottom: 0.55em; /* 11/20 = 0.55 */
+}
+
+ol{
+  list-style-type: decimal;
+}
+
+ul{
+  list-style-type: square;
+}
+
+li ol,
+li ul {
+  padding-left: 1.1em; /* 22/20 = 1.1 */
+  padding-bottom: 0;
+}
+li ol {
+  list-style-type: lower-alpha;
+}
+li li ol {
+  list-style-type: lower-roman;
+}
+
+
+/* Responsive Media */
+img,
+video,
+audio {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 0.55em;
+}
+
+/* Layout Styles */
+/*
+  Hint: these tend to be
+  1. IDs; but also classes, sometimes
+  2. concerned with layout and spatial
+     relationships
+*/
+
+#navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#navigation ul{
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#243B55, #141E30);
+  background: -o-linear-gradient(#243B55, #141E30);
+  background: linear-gradient(#243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#navigation li{
+  background: #141E30;
+  float: left;
+  width: 33.33333333%;
+}
+
+#navigation a {
+  display: block;
+  width: 100%;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 0.55em;
+  padding-bottom: 0.55em;
+}
+
+/* Modular Styles */
+/*
+  Repeating style patterns.
+  Hint: these tend to be:
+  1. classes and relationship selectors
+  2. concerned with adjustments to base styles,
+      spacing, color, etc. etc.
+*/
+
+#navigation ul,
+#navigation li {
+  list-style-type: none;
+  padding-bottom: 0;
+  border: none;
+}
+
+#navigation #name {
+  font-weight: bold;
+}
+
+#content {
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  grid-gap: 25px;
+}
+
+#primary,
+#social {
+  width: auto;
+}
+
+#primary {
+  grid-column: 2/4;
+  grid-row: 1;
+}
+
+#social {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#name_title {
+  font-size: 32px;
+  text-align: center;
+}
+
+.headshot {
+  border-radius: 50%;
+  width: 100%;
+  margin: auto;
+}
+
+#social ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+#social ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+#footer {
+  text-align: center;
+}
+/* State Styles */
+/*
+  States of the browser and user access
+  conditions.
+  Hint: these tend to be:
+  1. Driven by media queries
+  2. Influenced by JavaScript
+  3. Organized by Base, Layout, Module, State
+*/
+
