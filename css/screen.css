@@ -192,7 +192,11 @@ h5,
 h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  letter-spacing: -2;
+  letter-spacing: -2px;
+}
+
+h1 {
+  font-size: 42px;
 }
 
 h2 {
@@ -358,7 +362,6 @@ audio {
 }
 
 #name_title {
-  font-size: 32px;
   text-align: center;
 }
 
