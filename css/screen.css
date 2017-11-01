@@ -265,6 +265,19 @@ li li ol {
   color: #000000;
 }
 
+.card {
+  background-color: #FFFFFF;
+  border-radius: 1px;
+  margin-bottom: 44px;
+  box-shadow: -1px 1px 20px #888888;
+  padding: 30px;
+  min-height: 20px;
+}
+
+.card h1{
+  text-align: center;
+}
+
 /* Responsive Media */
 
 img,
