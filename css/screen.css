@@ -160,6 +160,8 @@ html {
   /* 20/16 = 1.25em */
   line-height: 1.1em;
   /* 22/20 = 1.1em */
+  background-image:url(../media/pattern.png);
+  background-repeat: repeat;
 }
 
 body {
