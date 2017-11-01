@@ -28,7 +28,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6,p {
-  padding-bottom: 1.1em; /* 22/20 = 1.1 */
+  padding-bottom: 0.8em; /* 22/20 = 1.1 */
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -37,11 +37,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h2{
-  font-size: 25px;
+  font-size: 1.25em; /* 25/20 = 1.25 em */
+  line-height: 0.8em; /* 22/25 = 0.88 em */
 }
 
 h3{
-  font-size: 20px;
+  font-size: 1.25em; 
+  line-height: 1.13m;
   font-weight: normal;
 }
 
@@ -74,6 +76,22 @@ li li ol {
   list-style-type: lower-roman;
 }
 
+#social ul{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  list-style-type: none;
+}
+
+#social ul li{
+  float:left;
+}
+
+#social ul li a{
+  padding: 16px;
+  text-decoration: none;
+  color: #000000;
+  display: block;
+}
 
 /* Responsive Media */
 img,
@@ -176,15 +194,6 @@ audio {
   margin: auto;
 }
 
-#social ul {
-  text-align: center;
-  list-style-type: none;
-}
-
-#social ul li a{
-  text-decoration: none;
-  color: #000000;
-}
 
 #footer {
   text-align: center;
