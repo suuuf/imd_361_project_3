@@ -344,8 +344,10 @@ audio {
 
 .headshot {
   border-radius: 50%;
-  max-width: 250px;
+  width: 250px;
   margin: auto;
+  box-shadow: -1px 1px 20px #888888;
+  padding: 0;
 }
 
 
@@ -364,8 +366,13 @@ audio {
   3. Organized by Base, Layout, Module, State
 */
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 599px) {
+  .headshot {
+      max-width: 200px;
+  }  
+}
 
+@media screen and (min-width: 600px) {
   #primary,
   #social {
     width: auto;
@@ -388,3 +395,4 @@ audio {
     grid-row: 1;
   }
 }
+
