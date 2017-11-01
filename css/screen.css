@@ -2,13 +2,152 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 /* stylelint-disable */
-a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html,.stylelint{line-height:1}body,.stylelint{line-height:inherit}ol,ul,.stylelint{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+a,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+mark,
+menu,
+nav,
+object,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+small,
+span,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+  display: block
+}
+
+html,
+.stylelint {
+  line-height: 1
+}
+
+body,
+.stylelint {
+  line-height: inherit
+}
+
+ol,
+ul,
+.stylelint {
+  list-style: none
+}
+
+blockquote,
+q {
+  quotes: none
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
 /* stylelint-enable */
 
 /* Begin site styles below */
 
 /* Base Styles */
+
 /*
   Hint: these tend to be
   1. element selectors
@@ -17,8 +156,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 html {
-  font-size: 1.25em; /* 20/16 = 1.25em */
-  line-height: 1.1em; /* 22/20 = 1.1em */
+  font-size: 1.25em;
+  /* 20/16 = 1.25em */
+  line-height: 1.1em;
+  /* 22/20 = 1.1em */
 }
 
 body {
@@ -27,67 +168,90 @@ body {
   padding-left: 1.65em;
 }
 
-h1,h2,h3,h4,h5,h6,p {
-  padding-bottom: 0.8em; /* 22/20 = 1.1em */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 0.8em;
+  /* 22/20 = 1.1em */
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-weight: bold;
 }
 
-h2{
-  font-size: 1.25em; /* 25/20 = 1.25 em */
-  line-height: 1.76em; /* 44/25 = 0.88 em */
+h2 {
+  font-size: 1.25em;
+  /* 25/20 = 1.25 em */
+  line-height: 1.76em;
+  /* 44/25 = 0.88 em */
 }
 
-h3{
-  font-size: 1em; /* 20/20 = 1em */
-  line-height: 1.1m; /* 22/20 = 1.1em */
+h3 {
+  font-size: 1em;
+  /* 20/20 = 1em */
+  line-height: 1.1m;
+  /* 22/20 = 1.1em */
   font-weight: normal;
 }
 
-h4{
-  font-size: 0.8em; /* 16/20 = 0.8em */
-  line-height: 1.375em; /* 22/16 = 1.375em */
+h4 {
+  font-size: 0.8em;
+  /* 16/20 = 0.8em */
+  line-height: 1.375em;
+  /* 22/16 = 1.375em */
   font-weight: normal;
 }
 
-ol,ul {
-  padding-bottom: 0.55em; /* 11/20 = 0.55 */
+ol,
+ul {
+  padding-bottom: 0.55em;
+  /* 11/20 = 0.55 */
 }
 
-ol{
+ol {
   list-style-type: decimal;
 }
 
-ul{
+ul {
   list-style-type: square;
 }
 
 li ol,
 li ul {
-  padding-left: 1.1em; /* 22/20 = 1.1 */
+  padding-left: 1.1em;
+  /* 22/20 = 1.1 */
   padding-bottom: 0.55em;
 }
+
 li ol {
   list-style-type: lower-alpha;
 }
+
 li li ol {
   list-style-type: lower-roman;
 }
 
-#social ul{
+#social ul {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   list-style-type: none;
 }
 
-#social ul li{
-  float:left;
+#social ul li {
+  float: left;
 }
 
-#social ul li a{
+#social ul li a {
   padding: 16px;
   text-decoration: none;
   color: #000000;
@@ -95,6 +259,7 @@ li li ol {
 }
 
 /* Responsive Media */
+
 img,
 video,
 audio {
@@ -104,6 +269,7 @@ audio {
 }
 
 /* Layout Styles */
+
 /*
   Hint: these tend to be
   1. IDs; but also classes, sometimes
@@ -118,14 +284,17 @@ audio {
   left: 0;
 }
 
-#navigation ul{
-  background: #141E30;  /* fallback for old browsers */
+#navigation ul {
+  background: #141E30;
+  /* fallback for old browsers */
   background: -webkit-linear-gradient(#243B55, #141E30);
   background: -o-linear-gradient(#243B55, #141E30);
-  background: linear-gradient(#243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(#243B55, #141E30);
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#navigation li{
+#navigation li {
   background: #141E30;
   float: left;
   width: 33.33333333%;
@@ -143,6 +312,7 @@ audio {
 }
 
 /* Modular Styles */
+
 /*
   Repeating style patterns.
   Hint: these tend to be:
@@ -162,28 +332,6 @@ audio {
   font-weight: bold;
 }
 
-#content {
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto auto;
-  grid-gap: 25px;
-}
-
-#primary,
-#social {
-  width: auto;
-}
-
-#primary {
-  grid-column: 2/4;
-  grid-row: 1;
-}
-
-#social {
-  grid-column: 1;
-  grid-row: 1;
-}
-
 #name_title {
   font-size: 32px;
   text-align: center;
@@ -199,7 +347,9 @@ audio {
 #footer {
   text-align: center;
 }
+
 /* State Styles */
+
 /*
   States of the browser and user access
   conditions.
@@ -209,4 +359,27 @@ audio {
   3. Organized by Base, Layout, Module, State
 */
 
+@media screen and (min-width: 600px) {
 
+  #primary,
+  #social {
+    width: auto;
+  }
+
+  #content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 25px;
+  }
+
+  #primary {
+    grid-column: 2/4;
+    grid-row: 1;
+  }
+
+  #social {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
