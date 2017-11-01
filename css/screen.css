@@ -222,6 +222,12 @@ h4 {
   font-weight: normal;
 }
 
+p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  line-height: 33px;
+}
+
 ol,
 ul {
   padding-bottom: 0.55em;
