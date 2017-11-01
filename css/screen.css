@@ -395,18 +395,18 @@ audio {
 
   #content {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(10, 1fr);
     grid-template-rows: auto auto;
-    grid-gap: 25px;
+    grid-gap: 40px;
   }
 
   #primary {
-    grid-column: 2/4;
+    grid-column: 5/11;
     grid-row: 1;
   }
 
   #social {
-    grid-column: 1;
+    grid-column:1/5;
     grid-row: 1;
   }
   
