@@ -241,21 +241,26 @@ li li ol {
   list-style-type: lower-roman;
 }
 
+#social {
+  padding-bottom: 22px;
+}
+
 #social ul {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   list-style-type: none;
+  padding: 10px;
+  margin: auto;
 }
 
 #social ul li {
-  float: left;
+  display: inline-block;
 }
 
 #social ul li a {
   padding: 16px;
   text-decoration: none;
   color: #000000;
-  display: block;
 }
 
 /* Responsive Media */
