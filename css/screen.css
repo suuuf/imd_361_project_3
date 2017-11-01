@@ -166,6 +166,9 @@ html {
 
 body {
   padding-top: 3.3em;
+}
+
+#content{
   padding-right: 1.65em;
   padding-left: 1.65em;
 }
@@ -370,8 +373,15 @@ audio {
   width: 70px;
 }
 
-#footer {
+footer {
+  padding: 30px;
   text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+footer p {
+  padding: 0;
 }
 
 /* State Styles */
@@ -387,13 +397,10 @@ audio {
 
 
 @media screen and (min-width: 600px) {
-  #primary,
-  #social {
-    width: auto;
-    margin-top: 22px;
-  }
 
   #content {
+    width: auto;
+    margin-top: 22px;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: auto auto;
