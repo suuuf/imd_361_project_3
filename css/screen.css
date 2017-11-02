@@ -344,7 +344,6 @@ audio {
 }
 
 #social ul {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   list-style-type: none;
   padding: 20px;
@@ -368,6 +367,16 @@ audio {
 }
 
 #software_exp ul li{
+  list-style-type: none;
+  padding-bottom: 11px;
+}
+
+#tech_skills ul{
+  text-align: center;
+}
+
+#tech_skills ul li{
+  display: block;
   list-style-type: none;
   padding-bottom: 11px;
 }
