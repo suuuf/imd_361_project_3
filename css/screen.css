@@ -362,20 +362,13 @@ audio {
   cursor: pointer;
 }
 
-#software_exp ul{
+#software_exp ul,
+#tech_skills ul {
   text-align: center
 }
 
-#software_exp ul li{
-  list-style-type: none;
-  padding-bottom: 11px;
-}
-
-#tech_skills ul{
-  text-align: center;
-}
-
-#tech_skills ul li{
+#software_exp ul li,
+#tech_skills ul li {
   display: block;
   list-style-type: none;
   padding-bottom: 11px;
