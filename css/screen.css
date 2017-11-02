@@ -259,41 +259,20 @@ li li ol {
   list-style-type: lower-roman;
 }
 
-#social {
-}
-
-#social ul {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  text-align: center;
-  list-style-type: none;
-  padding: 20px;
-  margin: auto;
-}
-
-#social ul li {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-#social ul li a {
-  text-decoration: none;
-  color: #000000;
-  cursor: pointer;
-}
-
-.card {
-  background-color: #FFFFFF;
-  border-radius: 1px;
-  margin-bottom: 44px;
-  box-shadow: -1px 1px 3px #888888;
+footer {
   padding: 30px;
-  min-height: 20px;
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
 }
 
-.card h1{
-  text-align: center;
+footer p {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  font-size: 12px;
 }
+
 
 /* Responsive Media */
 
@@ -319,6 +298,17 @@ audio {
   width: 100%;
   top: 0;
   left: 0;
+}
+
+#navigation ul,
+#navigation li {
+  list-style-type: none;
+  padding-bottom: 0;
+  border: none;
+}
+
+#navigation #name {
+  font-weight: bold;
 }
 
 #navigation ul {
@@ -348,6 +338,31 @@ audio {
   padding-bottom: 0.55em;
 }
 
+
+#name_title {
+  text-align: center;
+}
+
+#social ul {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+  list-style-type: none;
+  padding: 20px;
+  margin: auto;
+}
+
+#social ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#social ul li a {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
 /* Modular Styles */
 
 /*
@@ -358,20 +373,6 @@ audio {
       spacing, color, etc. etc.
 */
 
-#navigation ul,
-#navigation li {
-  list-style-type: none;
-  padding-bottom: 0;
-  border: none;
-}
-
-#navigation #name {
-  font-weight: bold;
-}
-
-#name_title {
-  text-align: center;
-}
 
 .headshot {
   border-radius: 50%;
@@ -385,18 +386,17 @@ audio {
   width: 70px;
 }
 
-footer {
+.card {
+  background-color: #FFFFFF;
+  border-radius: 1px;
+  margin-bottom: 44px;
+  box-shadow: -1px 1px 3px #888888;
   padding: 30px;
-  text-align: center;
-  background-color: #000000;
-  color: #FFFFFF;
+  min-height: 20px;
 }
 
-footer p {
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-  padding: 0;
-  font-size: 12px;
+.card h1{
+  text-align: center;
 }
 
 /* State Styles */
