@@ -178,7 +178,7 @@ h4,
 h5,
 h6,
 p {
-  padding-bottom: 0.8em; /* 22/20 = 1.1em */
+  padding-bottom: 1.1em; /* 22/20 = 1.1em */
 }
 
 h1,
@@ -193,8 +193,8 @@ h6 {
 }
 
 h1 {
-  font-size: 2.1em; /* 42/20 = 2.1 ee */
-  line-height: 1.0476em; /* 44/42 = 1.0476em */
+  font-size: 2.2em; /* 44/20 = 2.2 ee */
+  line-height: 1.0em; /* 44/44 = 1.0em */
 }
 
 h2 {
@@ -217,7 +217,6 @@ h4 {
 p {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
-  line-height: 1.65em; /* 33/20 = 1.65em */
 }
 
 ol,
@@ -355,7 +354,8 @@ audio {
 
 #software_exp ul,
 #tech_skills ul {
-  text-align: center
+  text-align: center;
+  padding: 0;
 }
 
 #software_exp ul li,
@@ -393,12 +393,12 @@ audio {
   border-radius: 0.05em;
   margin-bottom: 2.2em; /* 44/20 = 2.23m */
   box-shadow: -0.05em 0.05em 0.15em #888888; /* -1/20 = -0.05em , 1/20 = 0.05em , 3/20 = 0.15em */
-  padding: 1.5em; /* 30/20 = 1.5em */
+  padding: 1.65em; /* 33/20 = 1.65em */
 }
 
 .card h1{
-  font-size: 1.6em; /* 32/20 = 1.6em */
-  line-height: 0.6875em; /*22/32 = 0.6875em */
+  font-size: 1.65em; /* 33/20 = 1.65em */
+  line-height: 0.3333em; /*11/33 = 0.333em */
 }
 
 .card h1, .card h2,.card h3,.card h4,.card h5,.card h6{
