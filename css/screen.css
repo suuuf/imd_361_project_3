@@ -363,6 +363,15 @@ audio {
   cursor: pointer;
 }
 
+#software_exp ul{
+  text-align: center
+}
+
+#software_exp ul li{
+  list-style-type: none;
+  padding-bottom: 11px;
+}
+
 /* Modular Styles */
 
 /*
