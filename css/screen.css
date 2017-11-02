@@ -456,3 +456,10 @@ audio {
   }
 }
 
+@media screen and (min-width: 1280px) {
+  main{
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+  
+}
