@@ -400,6 +400,11 @@ audio {
   line-height: 0.3333em; /*11/33 = 0.333em */
 }
 
+.card h3 {
+  font-size: 1.1em; /* 22/20 = 1.1em */
+  line-height: 1em; /* 22/22 = 1em */
+}
+
 /* State Styles */
 
 /*
