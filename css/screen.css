@@ -318,6 +318,11 @@ audio {
   padding-bottom: 0.55em; /* 11/20 = 0.55 */
 }
 
+#home #nav-home,
+#resume #nav-resume,
+#projects #nav-projects {
+  background-color: #888888;
+}
 
 #name-title {
   text-align: center;
