@@ -187,9 +187,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-weight: 400;
-  letter-spacing: -0.1em; /* -2/20 = -0.1em */
 }
 
 h1 {
@@ -215,15 +214,13 @@ h4 {
 }
 
 p {
-  font-family: "Roboto Slab", serif;
-  font-weight: 300;
+  font-family: "Georgia", serif;
 }
 
 ol,
 ul {
   padding-bottom: 0.55em; /* 11/20 = 0.55 */
-  font-family: "Roboto Slab", serif;
-  font-weight: 300;
+  font-family: "Georgia", serif;
 }
 
 ol {
@@ -257,7 +254,7 @@ footer {
 
 footer p {
   text-transform: uppercase;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding: 0;
   font-size: 0.6em; /* 12/20 = 0.6em */
   line-height: 1.833em; /* 22/12 = 1.833em */
