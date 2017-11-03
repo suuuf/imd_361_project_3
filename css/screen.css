@@ -213,13 +213,13 @@ h4 {
 }
 
 p {
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
 }
 
 ol,
 ul {
   padding-bottom: 0.55em; /* 11/20 = 0.55 */
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
 }
 
 ol {
