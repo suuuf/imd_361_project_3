@@ -399,7 +399,7 @@ audio {
   text-align: center;
 }
 
-.card h1 {
+.card h2 {
   font-size: 1.65em; /* 33/20 = 1.65em */
   line-height: 0.3333em; /*11/33 = 0.333em */
 }
