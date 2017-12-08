@@ -465,6 +465,7 @@ audio {
   .cssgrid #app section {
     grid-column: 1/7;
     grid-row: 1;
+    height: fit-content;
   }
   
   .cssgrid #app figure {
