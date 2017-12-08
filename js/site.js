@@ -52,22 +52,22 @@ function initSlideShows(){
 
   setInterval(function() {
     $('#website-slideshow > figure:first')
-      .fadeOut(1000)
+      .show()
       .next()
-      .fadeIn(1000)
+      .hide()
       .end()
       .appendTo('#website-slideshow');
-  }, 3000);
+  }, 1000);
     
   $("#app-slideshow > figure:gt(0)").hide();
 
     setInterval(function() {
     $('#app-slideshow > figure:first')
-      .fadeOut(1000)
+      .show()
       .next()
-      .fadeIn(1000)
+      .hide()
       .end()
       .appendTo('#app-slideshow');
-  }, 3000);
+  }, 1000);
 }
 })(jQuery);
