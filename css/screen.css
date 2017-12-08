@@ -361,7 +361,7 @@ audio {
 #resume #nav-resume,
 #projects #nav-projects{
   border-bottom-color: #1DA2F4;
-  border-bottom: 5px solid #1DA2F4;
+  border-bottom: 0.25em solid #1DA2F4; /* 5/20 = 0.25em */
 }
 
 #name-title {
