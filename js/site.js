@@ -53,21 +53,23 @@ function initSlideShows(){
   setInterval(function() {
     $('#website-slideshow > figure:first')
       .show()
-      .next()
       .hide()
+      .next()
+      .show()
       .end()
       .appendTo('#website-slideshow');
-  }, 1000);
+  }, 2000);
     
   $("#app-slideshow > figure:gt(0)").hide();
 
     setInterval(function() {
     $('#app-slideshow > figure:first')
       .show()
-      .next()
       .hide()
+      .next()
+      .show()
       .end()
       .appendTo('#app-slideshow');
-  }, 1000);
+  }, 2000);
 }
 })(jQuery);
