@@ -351,10 +351,17 @@ audio {
   /* 11/20 = 0.55 */
 }
 
+#home #nav-home > a,
+#resume #nav-resume > a,
+#projects #nav-projects > a{
+  color: #1DA2F4;
+}
+
 #home #nav-home,
 #resume #nav-resume,
-#projects #nav-projects {
-  background-color: #888888;
+#projects #nav-projects{
+  border-bottom-color: #1DA2F4;
+  border-bottom: 5px solid #1DA2F4;
 }
 
 #name-title {
