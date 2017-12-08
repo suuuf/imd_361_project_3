@@ -262,6 +262,8 @@ li li ol {
 }
 
 footer {
+  position: absolute;
+  width: 100%;
   padding: 1.1em;
   /* 22/20 = 1.1em */
   text-align: center;
