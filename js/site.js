@@ -13,41 +13,7 @@ $.noConflict();
 
   // Initliaze slideshow on load
   $(document).ready(initSlideShows);
-
-  // Run toggledNavigation function on load and resize events
-  $(document).ready(toggledNavigation());
-  $(window).on('resize', toggledNavigation);
-
-  function toggledNavigation() {
-    if (responsiveFeature('expanded-nav')) {
-      if ($('#navigation h2').length === 0) {
-        // console.log("Is a mobile size");
-        $('#navigation').prepend('<h2><a href="#navigation">Menu</a></h2>');
-        $('#navigation a[href="#navigation"]').on('click', function (e) {
-          $('#navigation ul').toggleClass('is-visible');
-          $('body').toggleClass('is-showing-expanded-nav');
-          e.preventDefault();
-        });
-      }
-    } else {
-      // console.log("Is NOT a mobile size");
-      $('#navigation h2').remove();
-      $('#navigation ul').removeClass('is-visible');
-      $('body').removeClass('is-showing-expanded-nav');
-    }
-  }
-
-  function responsiveFeature(feature) {
-    var size = window
-      .getComputedStyle(document.body, ':after')
-      .getPropertyValue('content');
-    var has_feature = true;
-    if (size.indexOf(feature) === -1) {
-      has_feature = false;
-    }
-    return has_feature;
-  }
-
+  
   function initSlideShows() {
     $("#website-slideshow > figure:gt(0)").hide();
 
