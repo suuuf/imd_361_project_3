@@ -427,7 +427,7 @@ audio {
 
 @media screen and (min-width: 600px) {
 
-  #content {
+  .cssgrid #content {
     width: auto;
     margin-top: 1.1em; /* 22/20 = 1.1em */
     display: grid;
@@ -436,12 +436,12 @@ audio {
     grid-gap: 2em; /* 40/20 = 2em */
   }
 
-  #primary {
+  .cssgrid #primary {
     grid-column: 5/11;
     grid-row: 1;
   }
 
-  #social {
+  .cssgrid #social {
     grid-column: 1/5;
     grid-row: 1;
   }
