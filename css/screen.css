@@ -156,24 +156,19 @@ table {
 */
 
 html {
-  font-size: 1.25em;
-  /* 20/16 = 1.25em */
-  line-height: 1.1em;
-  /* 22/20 = 1.1em */
+  font-size: 1.25em; /* 20/16 = 1.25em */
+  line-height: 1.1em; /* 22/20 = 1.1em */
   background-image: url(../media/pattern.png);
   background-repeat: repeat;
 }
 
 body {
-  padding-top: 3.3em;
-  /* 66/20 = 3.3em */
+  padding-top: 3.3em; /* 66/20 = 3.3em */
 }
 
 main {
-  padding-right: 1.65em;
-  /* 33/20 = 1.65em */
-  padding-left: 1.65em;
-  /* 33/20 = 1.65em */
+  padding-right: 1.65em; /* 33/20 = 1.65em */
+  padding-left: 1.65em; /* 33/20 = 1.65em */
 }
 
 h1,
@@ -183,8 +178,7 @@ h4,
 h5,
 h6,
 p {
-  padding-bottom: 1.1em;
-  /* 22/20 = 1.1em */
+  padding-bottom: 1.1em; /* 22/20 = 1.1em */
 }
 
 h1,
@@ -197,32 +191,24 @@ h6 {
 }
 
 h1 {
-  font-size: 2.2em;
-  /* 44/20 = 2.2 ee */
-  line-height: 1em;
-  /* 44/44 = 1.0em */
+  font-size: 2.2em; /* 44/20 = 2.2 ee */
+  line-height: 1em; /* 44/44 = 1.0em */
 }
 
 h2 {
-  font-size: 1.25em;
-  /* 25/20 = 1.25 em */
-  line-height: 1.76em;
-  /* 44/25 = 0.88 em */
+  font-size: 1.25em; /* 25/20 = 1.25 em */
+  line-height: 1.76em; /* 44/25 = 0.88 em */
 }
 
 h3 {
-  font-size: 1em;
-  /* 20/20 = 1em */
-  line-height: 1.1em;
-  /* 22/20 = 1.1em */
+  font-size: 1em; /* 20/20 = 1em */
+  line-height: 1.1em; /* 22/20 = 1.1em */
   font-weight: normal;
 }
 
 h4 {
-  font-size: 0.8em;
-  /* 16/20 = 0.8em */
-  line-height: 1.375em;
-  /* 22/16 = 1.375em */
+  font-size: 0.8em; /* 16/20 = 0.8em */
+  line-height: 1.375em; /* 22/16 = 1.375em */
   font-weight: normal;
 }
 
@@ -232,8 +218,7 @@ p {
 
 ol,
 ul {
-  padding-bottom: 0.55em;
-  /* 11/20 = 0.55 */
+  padding-bottom: 0.55em; /* 11/20 = 0.55 */
   font-family: Georgia, serif;
 }
 
@@ -247,10 +232,8 @@ ul {
 
 li ol,
 li ul {
-  padding-left: 1.1em;
-  /* 22/20 = 1.1 */
-  padding-bottom: 0.55em;
-  /* 11/20 = 0.55 */
+  padding-left: 1.1em; /* 22/20 = 1.1 */
+  padding-bottom: 0.55em; /* 11/20 = 0.55 */
 }
 
 li ol {
@@ -264,8 +247,7 @@ li li ol {
 footer {
   position: absolute;
   width: 100%;
-  padding: 1.1em;
-  /* 22/20 = 1.1em */
+  padding: 1.1em; /* 22/20 = 1.1em */
   text-align: center;
   background-color: #000000;
   color: #FFFFFF;
@@ -275,18 +257,14 @@ footer p {
   text-transform: uppercase;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding: 0;
-  font-size: 0.6em;
-  /* 12/20 = 0.6em */
-  line-height: 1.833em;
-  /* 22/12 = 1.833em */
+  font-size: 0.6em; /* 12/20 = 0.6em */
+  line-height: 1.833em; /* 22/12 = 1.833em */
 }
 
 figcaption {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 0.6em;
-  /* 12/20 = 0.6em */
-  line-height: 1.833em;
-  /* 22/12 = 1.833em */
+  font-size: 0.6em; /* 12/20 = 0.6em */
+  line-height: 1.833em; /* 22/12 = 1.833em */
   text-align: center;
 }
 
@@ -345,21 +323,13 @@ audio {
   text-decoration: none;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
-  padding-top: 0.55em;
-  /* 11/20 = 0.55 */
-  padding-bottom: 0.55em;
-  /* 11/20 = 0.55 */
-}
-
-#home #nav-home > a,
-#resume #nav-resume > a,
-#projects #nav-projects > a{
-  color: #1DA2F4;
+  padding-top: 0.55em; /* 11/20 = 0.55 */
+  padding-bottom: 0.55em; /* 11/20 = 0.55 */
 }
 
 #home #nav-home,
 #resume #nav-resume,
-#projects #nav-projects{
+#projects #nav-projects {
   border-bottom-color: #1DA2F4;
   border-bottom: 0.25em solid #1DA2F4; /* 5/20 = 0.25em */
 }
@@ -371,23 +341,26 @@ audio {
 #social ul {
   text-align: center;
   list-style-type: none;
-  padding: 1em;
-  /* 20/20 = 1.0em */
+  padding: 1em; /* 20/20 = 1.0em */
   margin: auto;
 }
 
 #social ul li {
   display: inline-block;
-  margin-left: 0.5em;
-  /* 10/20 = 0.5em; */
-  margin-right: 0.5em;
-  /* 10/20 = 0.5em; */
+  margin-left: 0.5em; /* 10/20 = 0.5em; */
+  margin-right: 0.5em; /* 10/20 = 0.5em; */
 }
 
 #social ul li a {
   text-decoration: none;
   color: #000000;
   cursor: pointer;
+}
+
+#home #nav-home > a,
+#resume #nav-resume > a,
+#projects #nav-projects > a {
+  color: #1DA2F4;
 }
 
 #software-exp ul,
@@ -400,8 +373,7 @@ audio {
 #tech-skills ul li {
   display: block;
   list-style-type: none;
-  padding-bottom: 0.55em;
-  /* 11/20 = 0.55 */
+  padding-bottom: 0.55em; /* 11/20 = 0.55 */
 }
 
 /* Modular Styles */
@@ -416,28 +388,22 @@ audio {
 
 .headshot {
   border-radius: 50%;
-  width: 10em;
-  /* 200/20 = 10em */
+  width: 10em; /* 200/20 = 10em */
   margin: auto;
-  box-shadow: -0.05em 0.05em 1em #888888;
-  /* -1/20 = -0.05em , 1/20 = 0.05em , 20/20 = 1em */
+  box-shadow: -0.05em 0.05em 1em #888888; /* -1/20 = -0.05em , 1/20 = 0.05em , 20/20 = 1em */
   padding: 0;
 }
 
 .social-media-icon {
-  width: 3.5em;
-  /* 70/20 = 3.5em */
+  width: 3.5em; /* 70/20 = 3.5em */
 }
 
 .card {
   background-color: #FFFFFF;
   border-radius: 0.05em;
-  margin-bottom: 2.2em;
-  /* 44/20 = 2.23m */
-  box-shadow: -0.05em 0.05em 0.15em #888888;
-  /* -1/20 = -0.05em , 1/20 = 0.05em , 3/20 = 0.15em */
-  padding: 1.65em;
-  /* 33/20 = 1.65em */
+  margin-bottom: 2.2em; /* 44/20 = 2.23m */
+  box-shadow: -0.05em 0.05em 0.15em #888888; /* -1/20 = -0.05em , 1/20 = 0.05em , 3/20 = 0.15em */
+  padding: 1.65em; /* 33/20 = 1.65em */
 }
 
 .card h1,
@@ -450,17 +416,13 @@ audio {
 }
 
 .card h2 {
-  font-size: 1.65em;
-  /* 33/20 = 1.65em */
-  line-height: 1em;
-  /*33/33 = 1em */
+  font-size: 1.65em; /* 33/20 = 1.65em */
+  line-height: 1em; /*33/33 = 1em */
 }
 
 .card h3 {
-  font-size: 1.1em;
-  /* 22/20 = 1.1em */
-  line-height: 1em;
-  /* 22/22 = 1em */
+  font-size: 1.1em; /* 22/20 = 1.1em */
+  line-height: 1em; /* 22/22 = 1em */
 }
 
 /* State Styles */
@@ -478,13 +440,11 @@ audio {
 
   .cssgrid #content {
     width: auto;
-    margin-top: 1.1em;
-    /* 22/20 = 1.1em */
+    margin-top: 1.1em; /* 22/20 = 1.1em */
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: auto auto;
-    grid-gap: 2em;
-    /* 40/20 = 2em */
+    grid-gap: 2em; /* 40/20 = 2em */
   }
 
   .cssgrid #content #primary {
@@ -499,13 +459,11 @@ audio {
 
   .cssgrid #app {
     width: auto;
-    margin-top: 1.1em;
-    /* 22/20 = 1.1em */
+    margin-top: 1.1em; /* 22/20 = 1.1em */
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: auto auto;
-    grid-gap: 2em;
-    /* 40/20 = 2em */
+    grid-gap: 2em; /* 40/20 = 2em */
   }
 
   .cssgrid #app section {
@@ -521,13 +479,11 @@ audio {
 
   .cssgrid #website {
     width: auto;
-    margin-top: 1.1em;
-    /* 22/20 = 1.1em */
+    margin-top: 1.1em; /* 22/20 = 1.1em */
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: auto auto;
-    grid-gap: 2em;
-    /* 40/20 = 2em */
+    grid-gap: 2em; /* 40/20 = 2em */
   }
 
   .cssgrid #website section {
@@ -542,8 +498,7 @@ audio {
   }
 
   .headshot {
-    width: 12.5em;
-    /* 250/20 = 12.5em */
+    width: 12.5em; /* 250/20 = 12.5em */
   }
 
   #navigation ul {
